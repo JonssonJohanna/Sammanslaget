@@ -1,0 +1,14 @@
+:root {
+  --logo-color: rgb(222, 56, 49);
+  --text-color: black;
+  --background-color: rgb(252, 252, 252);
+}
+
+@font-face {
+  font-family: "Stone Sans";
+  src: url("fonts/Stone\ Sans\ Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Frutiger Roman";
+  src: url("fonts/Frutiger\ Roman.woff2") format("woff2");
+}
