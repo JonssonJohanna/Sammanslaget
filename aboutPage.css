@@ -17,6 +17,11 @@ h1 {
   color: var(--logo-color);
   font-weight: bold;
 }
+.linkWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
 a {
   text-decoration: none;
   font-family: Stone Sans;
@@ -71,14 +76,16 @@ h3 {
     font-size: 30px;
   }
   .wrapperAbout {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 3rem;
   }
 
   .us {
-    padding: 1rem;
-    width: 450px;
+    justify-content: flex-start;
     padding: 2rem;
     margin: 1rem;
     text-align: left;
@@ -88,8 +95,18 @@ h3 {
     font-size: 20px;
   }
 }
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 800px) {
   h1 {
     font-size: 50px;
+  }
+  .wrapperAbout {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .text {
+    width: 80%;
   }
 }
