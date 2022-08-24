@@ -94,6 +94,9 @@ h3 {
     color: black;
     font-size: 20px;
   }
+  .text {
+    width: 80%;
+  }
 }
 @media only screen and (min-width: 800px) {
   h1 {
