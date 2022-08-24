@@ -30,27 +30,26 @@ a {
 }
 
 .aboutText {
-  padding-top: 3rem;
+  padding: 5rem 0 2rem 0;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   color: var(--logo-color);
   font-family: Stone Sans;
   font-size: 20px;
 }
 .breadText {
-  color: black;
   font-size: 15px;
   font-family: Stone Sans;
   display: flex;
   justify-content: center;
 }
-.wrapperAbout {
+/* .wrapperAbout {
   margin-top: 3rem;
   justify-content: left;
-}
+} */
 
 .us {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Frutiger Roman;
   background-color: white;
 }
 img {
@@ -58,8 +57,8 @@ img {
   width: 80px;
 }
 .text {
-  font-family: Arial, Helvetica, sans-serif;
   text-align: left;
+  width: 85%;
 }
 h3 {
   margin: 0;
@@ -74,14 +73,13 @@ h3 {
     color: var(--logo-color);
     font-family: Stone Sans;
     font-size: 30px;
+    justify-content: center;
   }
   .wrapperAbout {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center; */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 3rem;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 
   .us {
@@ -91,25 +89,25 @@ h3 {
     text-align: left;
   }
   .breadText {
-    color: black;
     font-size: 20px;
   }
-  .text {
-    width: 80%;
-  }
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 760px) {
   h1 {
     font-size: 50px;
   }
+  .aboutText {
+    margin-bottom: 4rem;
+    font-size: 30px;
+  }
+  .breadText {
+    font-size: 20px;
+  }
   .wrapperAbout {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-  }
-  .text {
-    width: 80%;
+    padding-top: 0;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 }
