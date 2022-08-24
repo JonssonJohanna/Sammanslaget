@@ -5,9 +5,13 @@ body {
   background-color: var(--background-color);
   margin: 0 2rem 0 2rem;
 }
-header {
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
+
 h1 {
   font-family: Stone Sans;
   color: var(--logo-color);
@@ -28,20 +32,36 @@ a {
   font-family: Stone Sans;
   font-size: 20px;
 }
+.breadText {
+  color: black;
+  font-size: 15px;
+  font-family: Stone Sans;
+  display: flex;
+  justify-content: center;
+}
+.wrapperAbout {
+  margin-top: 3rem;
+  justify-content: left;
+}
+
 .us {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
 }
 img {
   height: 100px;
   width: 80px;
 }
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+h3 {
+  margin: 0;
+  font-weight: 400;
+}
 
 @media only screen and (min-width: 480px) {
-  header {
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: row;
-  }
   h1 {
     font-size: 30px;
   }
@@ -51,24 +71,25 @@ img {
     font-size: 30px;
   }
   .wrapperAbout {
-    margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .us {
-    width: 500px;
+    padding: 1rem;
+    width: 450px;
     padding: 2rem;
     margin: 1rem;
+    text-align: left;
+  }
+  .breadText {
+    color: black;
+    font-size: 20px;
   }
 }
 @media only screen and (min-width: 760px) {
-  header {
-    display: flex;
-    flex-direction: row;
-  }
   h1 {
     font-size: 50px;
-    margin-top: 0;
   }
 }
