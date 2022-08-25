@@ -16,6 +16,7 @@ body {
   font-family: Stone Sans;
   color: var(--logo-color);
   font-weight: bold;
+  font-size: 20px;
 }
 .linkWrapper {
   display: flex;
