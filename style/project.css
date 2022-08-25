@@ -12,7 +12,7 @@ body {
   justify-content: space-between;
 }
 
-h1 {
+.logo {
   font-family: Stone Sans;
   color: var(--logo-color);
   font-weight: bold;
@@ -63,16 +63,19 @@ a {
   text-decoration: underline;
   margin: 0;
 }
+.link {
+  margin: 3px;
+}
 
 @media only screen and (min-width: 480px) {
-  h1 {
+  .logo {
     font-size: 30px;
   }
   .ingressText {
-    font-size: 20px;
+    font-size: 18px;
   }
   .breadText {
-    font-size: 18px;
+    font-size: 16px;
   }
   .aboutText {
     color: var(--logo-color);
@@ -97,17 +100,18 @@ a {
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    font-size: 15px;
   }
 }
 @media only screen and (min-width: 760px) {
-  h1 {
-    font-size: 50px;
+  .logo {
+    font-size: 40px;
   }
   .linkWrapper {
     gap: 3rem;
   }
   .ingressText {
-    font-size: 22px;
+    font-size: 20px;
   }
   .breadText {
     word-spacing: 1.5px;
@@ -119,8 +123,10 @@ a {
   }
 
   .textWrapper {
-    margin-left: 27%;
-    margin-right: 27%;
-    padding: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-right: 8rem;
+    padding-left: 8rem;
+    padding-top: 6rem;
   }
 }
