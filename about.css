@@ -20,7 +20,7 @@ h1 {
 .linkWrapper {
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 1rem;
 }
 a {
   text-decoration: none;
@@ -36,21 +36,22 @@ a {
   color: var(--logo-color);
   font-family: Stone Sans;
   font-size: 20px;
+  padding-bottom: 1rem;
 }
 .breadText {
   font-size: 15px;
-  font-family: Stone Sans;
+  font-family: Frutiger Roman;
+  font-weight: 500;
   display: flex;
-  justify-content: center;
-}
-/* .wrapperAbout {
-  margin-top: 3rem;
   justify-content: left;
-} */
+}
 
 .us {
   font-family: Frutiger Roman;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 img {
   height: 100px;
@@ -72,7 +73,7 @@ h3 {
   .aboutText {
     color: var(--logo-color);
     font-family: Stone Sans;
-    font-size: 30px;
+    font-size: 25px;
     justify-content: center;
   }
   .wrapperAbout {
@@ -83,23 +84,33 @@ h3 {
   }
 
   .us {
-    justify-content: flex-start;
+    /* justify-content: center; */
     padding: 2rem;
     margin: 1rem;
     text-align: left;
   }
   .breadText {
     font-size: 20px;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    justify-content: center;
+  }
+  img {
+    height: 150px;
+    width: 100px;
   }
 }
 @media only screen and (min-width: 760px) {
   h1 {
     font-size: 50px;
   }
+  .linkWrapper {
+    gap: 3rem;
+  }
   .aboutText {
-    margin-bottom: 4rem;
     font-size: 30px;
   }
+
   .breadText {
     font-size: 20px;
   }
@@ -109,5 +120,9 @@ h3 {
     padding-top: 0;
     margin-left: 15%;
     margin-right: 15%;
+  }
+  img {
+    height: 200px;
+    width: 150px;
   }
 }
