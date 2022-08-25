@@ -20,7 +20,7 @@ h1 {
 .linkWrapper {
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 1rem;
 }
 a {
   text-decoration: none;
@@ -46,5 +46,11 @@ canvas {
 @media only screen and (min-width: 760px) {
   h1 {
     font-size: 50px;
+  }
+  iframe {
+    margin-top: 0;
+  }
+  .linkWrapper {
+    gap: 3rem;
   }
 }
