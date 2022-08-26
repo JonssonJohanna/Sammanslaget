@@ -10,13 +10,16 @@ body {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  gap: 1rem;
 }
 
 .logo {
   font-family: Stone Sans;
   color: var(--logo-color);
   font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
 }
 .linkWrapper {
   display: flex;
@@ -31,28 +34,28 @@ a {
 }
 
 .aboutText {
-  padding: 5rem 0 2rem 0;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   color: var(--logo-color);
   font-family: Stone Sans;
   font-size: 20px;
-  padding-bottom: 1rem;
 }
 .breadText {
   font-size: 15px;
   font-family: Frutiger Roman;
   font-weight: 500;
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
-
 .us {
   font-family: Frutiger Roman;
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+h2 {
+  font-size: 20px;
 }
 img {
   height: 100px;
@@ -72,11 +75,8 @@ h3 {
     font-size: 30px;
   }
   .aboutText {
-    color: var(--logo-color);
-    font-family: Stone Sans;
     font-size: 25px;
-    justify-content: center;
-    padding-top: 8rem;
+    padding-top: 3rem;
   }
   .wrapperAbout {
     display: grid;
@@ -100,6 +100,9 @@ h3 {
     height: 150px;
     width: 100px;
   }
+  h2 {
+    font-size: 20px;
+  }
 }
 @media only screen and (min-width: 760px) {
   .logo {
@@ -110,6 +113,7 @@ h3 {
   }
   .aboutText {
     font-size: 30px;
+    padding-top: 7rem;
   }
 
   .breadText {

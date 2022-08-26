@@ -11,13 +11,15 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   padding-bottom: 2rem;
+  padding-top: 2rem;
+  gap: 1rem;
 }
 
 .logo {
   font-family: Stone Sans;
   color: var(--logo-color);
   font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
 }
 .linkWrapper {
   display: flex;
@@ -30,14 +32,13 @@ a {
   color: var(--text-color);
   align-items: center;
 }
+
 iframe {
-  width: 100%;
-  margin-top: 3rem;
+  background-color: black;
   border-radius: 8px;
-  object-fit: contain;
-}
-canvas {
-  max-width: 100%;
+  width: 100%;
+  margin-top: 1rem;
+  padding-top: 1rem;
 }
 
 @media only screen and (min-width: 480px) {
@@ -54,5 +55,8 @@ canvas {
   }
   .linkWrapper {
     gap: 3rem;
+  }
+  .textWrapper {
+    font-size: 25px;
   }
 }

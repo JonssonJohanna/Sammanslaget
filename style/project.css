@@ -10,13 +10,16 @@ body {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  gap: 1rem;
 }
 
 .logo {
   font-family: Stone Sans;
   color: var(--logo-color);
   font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
 }
 .linkWrapper {
   display: flex;
@@ -31,14 +34,13 @@ a {
   padding-top: 0;
 }
 .aboutText {
-  padding: 1rem 1rem 0 0;
-  margin-top: 3rem;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   color: var(--logo-color);
   font-family: Stone Sans;
   font-size: 20px;
 }
+
 .textWrapper {
   justify-content: left;
   background-color: white;
@@ -72,6 +74,7 @@ a {
   .logo {
     font-size: 30px;
   }
+
   .ingressText {
     font-size: 18px;
   }
@@ -126,8 +129,8 @@ a {
   .textWrapper {
     margin-left: 20%;
     margin-right: 20%;
-    padding-right: 8rem;
-    padding-left: 8rem;
+    padding-right: 12%;
+    padding-left: 12%;
     padding-top: 6rem;
   }
 }
